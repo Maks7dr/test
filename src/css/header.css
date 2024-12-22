@@ -1,0 +1,166 @@
+/* Якщо треба буде додати медіа-правила для кожної позиції, що змінилася, я перероблю, але збільшиться кількість рядків набагато */
+
+/* Styles for MOBILE */
+
+.header-container {
+  padding: 20px 0 0 0;
+  max-width: 335px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+.page-header {
+  position: relative;
+  background-color: transparent;
+  margin: 0 auto;
+}
+.header-logo {
+  display: block;
+  padding: 8px 0;
+}
+.logo-icon {
+  width: 168px;
+  height: 16px;
+  display: block;
+}
+.nav-list {
+  display: none;
+}
+.burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+.burger-icon {
+  display: block;
+  stroke-width: 3px;
+  stroke: #fbfbfb;
+  fill: none;
+}
+/* Styles for TABLET */
+@media only screen and (min-width: 768px) {
+  .container.header-container {
+    padding-top: 32px;
+  }
+  .header-logo {
+    padding: 10px 0;
+  }
+  .logo-icon {
+    width: 216px;
+    height: 20px;
+  }
+
+  .burger-icon {
+    width: 40;
+    height: 40;
+  }
+}
+
+/* Styles for DESCTOP */
+@media only screen and (min-width: 1158px) {
+  .header-container {
+    display: flex;
+    position: relative;
+  }
+
+  .nav-header {
+    display: flex;
+    align-items: center;
+  }
+  .header-logo {
+    padding: 16px 0;
+    margin-right: 360px;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+  }
+  .burger-btn {
+    display: none;
+  }
+  .hed-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 20px;
+  }
+
+  .nav-link-header {
+    position: relative;
+    display: block;
+    border: 1px solid #fbfbfb;
+    border-radius: 12px;
+    padding: 12px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #fbfbfb;
+  }
+  .nav-item-btn {
+    display: block;
+  }
+  .nav-link-btn {
+    border-radius: 30px;
+    padding: 16px 32px;
+    min-width: 157px;
+    height: 52px;
+    background: #7a3145;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin-left: 0 auto;
+  }
+  .nav-link-header:hover {
+    color: #7a3145;
+    background-color: #d4bfc4;
+    border: 1px solid #d4bfc4;
+  }
+
+  .nav-link-header:active {
+    color: #7a3145;
+    background-color: #fbfbfb;
+    border: 1px solid #fbfbfb;
+  }
+  .nav-link-btn:hover {
+    color: #7a3145;
+    background-color: #d4bfc4;
+    border: 1px solid #d4bfc4;
+  }
+
+  .nav-link-btn:active {
+    color: #7a3145;
+    background-color: #fbfbfb;
+    border: 1px solid #fbfbfb;
+  }
+}
+
+/* #endregion */
+
+/* Стилізована кнопка Shop Now, якщо буде потрібна */
+
+/* .btn-header {
+  border-radius: 30px;
+  padding: 16px 32px;
+  min-width: 157px;
+  height: 52px;
+  background: #7a3145;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 111%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+} */
