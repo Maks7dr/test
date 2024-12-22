@@ -1,11 +1,6 @@
 .reviews-title {
   color: var(--color-black-text);
 }
-@media only screen and (max-width: 346px) {
-  .reviews-title {
-    font-size: 47px;
-  }
-}
 @media only screen and (min-width: 768px) {
   .reviews-title {
     max-width: 553px;
@@ -17,7 +12,7 @@
 .reviews-content {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.42857;
+  line-height: 1.43;
   color: var(--color-black-text);
   margin-bottom: 40px;
 }
@@ -79,7 +74,7 @@
   margin-bottom: 8px;
   font-weight: 600;
   font-size: 18px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   text-align: center;
